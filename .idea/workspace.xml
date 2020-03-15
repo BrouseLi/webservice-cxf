@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ad24cdb-1f9f-4233-8cb1-99dab8a3be43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Config/CxfConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/client/CxfClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/PolicyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/PolicyServiceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/UserServiceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="/usr/local/bin/git" />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="BrouseLi" />
+        <option value="brouseli" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="ProjectId" id="1Z9aUh9JS6hw91tYz8fZwDnemzk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MimicwebpolicyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mimicwebpolicy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.angshi.mimicwebpolicy.MimicwebpolicyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ad24cdb-1f9f-4233-8cb1-99dab8a3be43" name="Default Changelist" comment="" />
+      <created>1584253780508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584253780508</updated>
+      <workItem from="1584253786968" duration="9774000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cxf 3.24 implements server and client" />
+    <option name="LAST_COMMIT_MESSAGE" value="cxf 3.24 implements server and client" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="766" y="269" key="#com.intellij.ide.util.MemberChooser" timestamp="1584272921157">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="766" y="269" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1026@0.23.1792.1026" timestamp="1584255321395" />
+    <state x="766" y="269" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1028@0.23.1792.1028" timestamp="1584272921157" />
+    <state x="563" y="118" key="CommitChangelistDialog2" timestamp="1584280398336">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="563" y="118" key="CommitChangelistDialog2/0.23.1792.1026@0.23.1792.1026" timestamp="1584280398336" />
+    <state x="782" y="436" key="Github.CreateGistDialog" timestamp="1584280012876">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="782" y="436" key="Github.CreateGistDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1584280012876" />
+    <state width="1367" height="242" key="GridCell.Tab.0.bottom" timestamp="1584280260154">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1367" height="242" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260154" />
+    <state width="1367" height="242" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282182" />
+    <state width="1367" height="242" key="GridCell.Tab.0.center" timestamp="1584280260153">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1367" height="242" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260153" />
+    <state width="1367" height="242" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282181" />
+    <state width="1367" height="242" key="GridCell.Tab.0.left" timestamp="1584280260153">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1367" height="242" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260153" />
+    <state width="1367" height="242" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282181" />
+    <state width="1367" height="242" key="GridCell.Tab.0.right" timestamp="1584280260154">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1367" height="242" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260154" />
+    <state width="1367" height="242" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282182" />
+    <state width="1367" height="242" key="GridCell.Tab.1.bottom" timestamp="1584280260155">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1367" height="242" key="GridCell.Tab.1.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260155" />
+    <state width="1367" height="242" key="GridCell.Tab.1.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282183" />
+    <state width="1367" height="242" key="GridCell.Tab.1.center" timestamp="1584280260154">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1367" height="242" key="GridCell.Tab.1.center/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260154" />
+    <state width="1367" height="242" key="GridCell.Tab.1.center/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282182" />
+    <state width="1367" height="242" key="GridCell.Tab.1.left" timestamp="1584280260154">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1367" height="242" key="GridCell.Tab.1.left/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260154" />
+    <state width="1367" height="242" key="GridCell.Tab.1.left/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282182" />
+    <state width="1367" height="242" key="GridCell.Tab.1.right" timestamp="1584280260154">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1367" height="242" key="GridCell.Tab.1.right/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260154" />
+    <state width="1367" height="242" key="GridCell.Tab.1.right/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282182" />
+    <state x="630" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1584253812859">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="630" y="385" key="com.intellij.ide.util.TipDialog/0.23.1792.1031@0.23.1792.1031" timestamp="1584253812859" />
+  </component>
+</project>
