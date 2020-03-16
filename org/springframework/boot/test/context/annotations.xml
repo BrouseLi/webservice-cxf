@@ -1,0 +1,5 @@
+<root>
+    <item name='org.springframework.boot.test.context.TestComponent'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>

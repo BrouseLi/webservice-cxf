@@ -1,2 +1,11 @@
 server:
   port: 80
+feign:
+  sentinel:
+    enabled: true                       #开启feign sentinel监控
+ribbon:
+  MaxAutoRetries: 2
+  MaxAutoRetriesNextServer: 3
+  OkToRetryOnAllOperations: false
+  ConnectTimeout: 5000
+  ReadTimeout: 6000

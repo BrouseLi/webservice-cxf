@@ -14,11 +14,18 @@ import javax.jws.WebService;
 public class PolicyServiceimpl  implements PolicyService {
     @Override
     public String queryPolicy(String oprCode) {
-        return "";
+        return "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
+                "<Policy>\n" +
+                "<Item key=\"Policy.name\" value=\"\"/>" +
+                "<Item key=\"ip\" value=\"\"/>" +
+                "</Policy>";
     }
 
     @Override
     public String queryPolicyParam(String key, int pageIndex, int pageSize) {
+        if("Policy.name".equals(key)){
+            return "";
+        }
         return "";
     }
 
