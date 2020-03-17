@@ -1,14 +1,14 @@
 package com.angshi.mimicwebpolicy.Entity;
 
 
-import com.WSSmCommUpperServiceImplServiceLocator;
-import com.WSSmCommUpperServiceImplServiceSoapBindingStub;
+/*import com.WSSmCommUpperServiceImplServiceLocator;
+import com.WSSmCommUpperServiceImplServiceSoapBindingStub;*/
 
 public class HelloWorldClient {
   public static void main(String[] argv) {
-      try {
-          WSSmCommUpperServiceImplServiceLocator locator = new WSSmCommUpperServiceImplServiceLocator();
-          WSSmCommUpperServiceImplServiceSoapBindingStub service = (WSSmCommUpperServiceImplServiceSoapBindingStub) locator.getWSSmCommUpperServiceImplPort();
+      //try {
+          //WSSmCommUpperServiceImplServiceLocator locator = new WSSmCommUpperServiceImplServiceLocator();
+          //WSSmCommUpperServiceImplServiceSoapBindingStub service = (WSSmCommUpperServiceImplServiceSoapBindingStub) locator.getWSSmCommUpperServiceImplPort();
       //    try{
         	  String access=new Accesslog("172.69.22.88|2018.Aug.03|null|20:49:35-0400|GET /|200|29198|www.zhonghangshebei.com|Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)\" \"128.177.10.216").toString();
         	  String warn=new Warnlog("/internet/2014/0222/138.html|1|504,200|0,9998").toString();
@@ -27,8 +27,8 @@ public class HelloWorldClient {
           //((WSSmCommUpperImplServiceSoapBindingStub)service).setPassword("pass3");
           // invoke business method
 
-      } catch (javax.xml.rpc.ServiceException ex) {
+     /* } catch (javax.xml.rpc.ServiceException ex) {
           ex.printStackTrace();
-      }
+      }*/
   }
 }

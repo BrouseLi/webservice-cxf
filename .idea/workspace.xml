@@ -2,41 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad24cdb-1f9f-4233-8cb1-99dab8a3be43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/org/springframework/boot/test/context/annotations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Config/MyfeignConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Accesslog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Boards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Errorlog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Hardware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/HelloWorldClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Interfaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Logs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Module.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Modules.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/ObjToXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Registerlog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Software.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Version.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Versions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/ViewPack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Warnlog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/test/CxfTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Policy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/GetOsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getCpuBaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getDiskDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getMemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getNetworkDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/CycleSchStragety.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/LogCleanStragety.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/VoterStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/Policyutil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/RecieveOSViewXml.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mimicwebpolicy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mimicwebpolicy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/client/CxfClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/client/CxfClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/HelloWorldClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/HelloWorldClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/test/CxfTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/PolicyServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/PolicyServiceimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angshi/mimicwebpolicy/Config/CxfConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angshi/mimicwebpolicy/Config/CxfConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/mimicwebpolicy.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,77 +33,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/PolicyService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/PolicyServiceimpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Accesslog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-173" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/client/CxfClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/test/CxfTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="216">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/RecieveOSViewXml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Config/MyfeignConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="152">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,19 +60,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/UserServiceimpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/Policyutil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,14 +108,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/PolicyServiceimpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Config/MyfeignConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Accesslog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/client/CxfClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/CycleSchStragety.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/getPolicyStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/HelloWorldClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Policy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/test/CxfTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/Policyutil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/PolicyServiceimpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/getMemDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/getCpuBaseDao.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/getNetworkDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/GetOsView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/generateXml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/RecieveOSViewXml.java" />
       </list>
     </option>
   </component>
@@ -192,6 +145,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,7 +195,35 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mimicwebpolicy" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mimicwebpolicy" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mimicwebpolicy" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mimicwebpolicy" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
@@ -254,7 +236,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -270,12 +251,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584351302955" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584448589290" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\webservice-cxf\src\main\java\com\angshi\mimicwebpolicy\service\util" />
+      <recent name="D:\project\webservice-cxf\src\main\java\com\angshi\mimicwebpolicy\service" />
+      <recent name="D:\project\webservice-cxf\src\main\java\com\angshi\mimicwebpolicy\parse" />
       <recent name="D:\project\webservice-cxf\src\main\java\com\angshi\mimicwebpolicy\Entity" />
     </key>
   </component>
@@ -291,7 +275,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.RecieveOSViewXml">
+    <configuration name="RecieveOSViewXml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.service.util.RecieveOSViewXml" />
+      <module name="mimicwebpolicy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angshi.mimicwebpolicy.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PolicyServiceimpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mimicwebpolicy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angshi.mimicwebpolicy.webservice.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.angshi.mimicwebpolicy.webservice.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.webservice.impl.PolicyServiceimpl" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PolicyServiceimpl.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mimicwebpolicy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angshi.mimicwebpolicy.webservice.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.angshi.mimicwebpolicy.webservice.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.webservice.impl.PolicyServiceimpl" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Policyutil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mimicwebpolicy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angshi.mimicwebpolicy.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.angshi.mimicwebpolicy.service.util" />
+      <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.service.util.Policyutil" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Policyutil.testParsePolicy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mimicwebpolicy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angshi.mimicwebpolicy.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.angshi.mimicwebpolicy.service.util" />
+      <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.service.util.Policyutil" />
+      <option name="METHOD_NAME" value="testParsePolicy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MimicwebpolicyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mimicwebpolicy" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.angshi.mimicwebpolicy.MimicwebpolicyApplication" />
@@ -299,6 +356,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RecieveOSViewXml" />
+        <item itemvalue="JUnit.PolicyServiceimpl.test" />
+        <item itemvalue="JUnit.PolicyServiceimpl" />
+        <item itemvalue="JUnit.Policyutil.testParsePolicy" />
+        <item itemvalue="JUnit.Policyutil" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -326,61 +392,143 @@
       <option name="presentableId" value="Default" />
       <updated>1584253780508</updated>
       <workItem from="1584253786968" duration="9774000" />
-      <workItem from="1584324230145" duration="8394000" />
+      <workItem from="1584324230145" duration="8663000" />
+      <workItem from="1584414879237" duration="18512000" />
     </task>
+    <task id="LOCAL-00001" summary="add entity ,create createClient method and reportLog">
+      <created>1584351474462</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584351474462</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Policyutil_testParsePolicy - 2020.03.17 at 16h 22m 51s.xml">
+      <configuration name="Policyutil.testParsePolicy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Policyutil - 2020.03.17 at 16h 25m 14s.xml">
+      <configuration name="Policyutil" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Policyutil - 2020.03.17 at 16h 25m 49s.xml">
+      <configuration name="Policyutil" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Policyutil_testParsePolicy - 2020.03.17 at 16h 26m 15s.xml">
+      <configuration name="Policyutil.testParsePolicy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PolicyServiceimpl - 2020.03.17 at 16h 47m 11s.xml">
+      <configuration name="PolicyServiceimpl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PolicyServiceimpl_test - 2020.03.17 at 16h 47m 41s.xml">
+      <configuration name="PolicyServiceimpl.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PolicyServiceimpl_test - 2020.03.17 at 16h 52m 36s.xml">
+      <configuration name="PolicyServiceimpl.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PolicyServiceimpl - 2020.03.17 at 16h 54m 44s.xml">
+      <configuration name="PolicyServiceimpl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PolicyServiceimpl_test - 2020.03.17 at 16h 57m 01s.xml">
+      <configuration name="PolicyServiceimpl.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PolicyServiceimpl_test - 2020.03.17 at 16h 58m 56s.xml">
+      <configuration name="PolicyServiceimpl.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8394000" />
+    <option name="totallyTimeSpent" value="27175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Alibaba Cloud Explorer" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966533" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25301206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Alibaba Cloud Explorer" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32909605" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Alibaba Function Compute" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Alibaba Log Console" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Alibaba Function Compute" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Alibaba Log Console" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25301206" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Alibaba Cloud Explorer" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32909605" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3997175" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Alibaba Function Compute" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Alibaba Log Console" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cxf 3.24 implements server and client" />
-    <option name="LAST_COMMIT_MESSAGE" value="cxf 3.24 implements server and client" />
+    <MESSAGE value="add entity ,create createClient method and reportLog" />
+    <option name="LAST_COMMIT_MESSAGE" value="add entity ,create createClient method and reportLog" />
   </component>
   <component name="WindowStateProjectService">
     <state x="766" y="269" key="#com.intellij.ide.util.MemberChooser" timestamp="1584272921157">
@@ -449,10 +597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/client/CxfClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+        <state relative-caret-position="95">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -465,7 +613,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Config/MyfeignConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="209">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -475,45 +623,197 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/UserServiceimpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
+        <state relative-caret-position="285">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/PolicyServiceimpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="76">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/VoterStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/CycleSchStragety.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/LogCleanStragety.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar!/org/dom4j/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/parseTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Policy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/getPolicyStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="87" column="58" lean-forward="true" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/test/CxfTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/HelloWorldClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Accesslog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/client/CxfClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="532">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/test/CxfTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="140">
+          <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/PolicyServiceimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        <state relative-caret-position="216">
+          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/Policyutil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/ObjToXml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getNetworkDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getMemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getDiskDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getCpuBaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/GetOsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/RecieveOSViewXml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
