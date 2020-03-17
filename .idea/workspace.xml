@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad24cdb-1f9f-4233-8cb1-99dab8a3be43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Policy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/GetOsView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getCpuBaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getDiskDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getMemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getNetworkDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/CycleSchStragety.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/LogCleanStragety.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/VoterStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/Policyutil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/RecieveOSViewXml.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mimicwebpolicy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mimicwebpolicy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/HelloWorldClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/HelloWorldClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/test/CxfTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/PolicyServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/PolicyServiceimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/angshi/mimicwebpolicy/Config/CxfConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angshi/mimicwebpolicy/Config/CxfConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/mimicwebpolicy.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,10 +27,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/RecieveOSViewXml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="615">
               <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,6 +59,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -123,11 +112,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/PolicyServiceimpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/getMemDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/getCpuBaseDao.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/getNetworkDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/GetOsView.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/generateXml.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/RecieveOSViewXml.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -153,85 +142,6 @@
               <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
               <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mimicwebpolicy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mimicwebpolicy" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mimicwebpolicy" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mimicwebpolicy" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mimicwebpolicy" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mimicwebpolicy" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -251,7 +161,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584448589290" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584448972193" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -393,7 +303,7 @@
       <updated>1584253780508</updated>
       <workItem from="1584253786968" duration="9774000" />
       <workItem from="1584324230145" duration="8663000" />
-      <workItem from="1584414879237" duration="18512000" />
+      <workItem from="1584414879237" duration="18756000" />
     </task>
     <task id="LOCAL-00001" summary="add entity ,create createClient method and reportLog">
       <created>1584351474462</created>
@@ -402,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584351474462</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add osStatusView and format for XmlWriter and parse voterPolicy">
+      <created>1584448733056</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584448733057</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -438,7 +355,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27175000" />
+    <option name="totallyTimeSpent" value="27419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
@@ -528,7 +445,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cxf 3.24 implements server and client" />
     <MESSAGE value="add entity ,create createClient method and reportLog" />
-    <option name="LAST_COMMIT_MESSAGE" value="add entity ,create createClient method and reportLog" />
+    <MESSAGE value="add osStatusView and format for XmlWriter and parse voterPolicy" />
+    <option name="LAST_COMMIT_MESSAGE" value="add osStatusView and format for XmlWriter and parse voterPolicy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="766" y="269" key="#com.intellij.ide.util.MemberChooser" timestamp="1584272921157">
@@ -742,13 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/Policyutil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -809,11 +720,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/RecieveOSViewXml.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="615">
           <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
         </state>
       </provider>
     </entry>
