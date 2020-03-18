@@ -28,7 +28,10 @@ public class CxfClient {
         Client client = dcf.createClient(serverWsdlPath);
         return client;
     }
-
+    public static Object[] invoke (Client client,String methodName,String ... param)throws Exception{
+        Object[] objects = new Object[0];
+        return client.invoke(methodName,param);
+    }
     /**
      *
      * @param accesslogXml
