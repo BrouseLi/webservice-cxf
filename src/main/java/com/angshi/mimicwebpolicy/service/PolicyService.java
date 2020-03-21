@@ -1,4 +1,4 @@
-package com.angshi.mimicwebpolicy.webservice;
+package com.angshi.mimicwebpolicy.service;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;

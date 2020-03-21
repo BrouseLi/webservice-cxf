@@ -1,7 +1,7 @@
-package com.angshi.mimicwebpolicy.webservice.impl;
+package com.angshi.mimicwebpolicy.service.impl;
 
 import com.angshi.mimicwebpolicy.Entity.User;
-import com.angshi.mimicwebpolicy.webservice.UserService;
+import com.angshi.mimicwebpolicy.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
@@ -17,8 +17,8 @@ import java.util.UUID;
  * @Decription 实现接口
  */
 @WebService(serviceName ="UserService",//对外发布服务名
-        targetNamespace="http://webservice.mimicwebpolicy.angshi.com",//指定名称空间
-        endpointInterface = "com.angshi.mimicwebpolicy.webservice.UserService")//地址空间
+        targetNamespace="http://service.mimicwebpolicy.angshi.com",//指定名称空间
+        endpointInterface = "com.angshi.mimicwebpolicy.service.UserService")//地址空间
 @Slf4j
 @Component
 public class UserServiceimpl implements UserService {

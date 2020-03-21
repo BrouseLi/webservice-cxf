@@ -1,6 +1,6 @@
 package com.angshi.mimicwebpolicy.Config;
 
-import com.angshi.mimicwebpolicy.webservice.UserService;
+import com.angshi.mimicwebpolicy.service.UserService;
 import org.apache.cxf.Bus;
 import javax.xml.ws.Endpoint;
 import org.apache.cxf.jaxws.EndpointImpl;

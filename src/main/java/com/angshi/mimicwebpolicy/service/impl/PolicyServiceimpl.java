@@ -1,21 +1,20 @@
-package com.angshi.mimicwebpolicy.webservice.impl;
+package com.angshi.mimicwebpolicy.service.impl;
 
 import com.angshi.mimicwebpolicy.Entity.ObjToXml;
 import com.angshi.mimicwebpolicy.Entity.Policy;
 import com.angshi.mimicwebpolicy.Entity.Result;
-import com.angshi.mimicwebpolicy.service.util.Policyutil;
-import com.angshi.mimicwebpolicy.webservice.PolicyService;
+import com.angshi.mimicwebpolicy.util.Policyutil;
+import com.angshi.mimicwebpolicy.service.PolicyService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.stereotype.Component;
-import sun.security.util.PolicyUtil;
 
 import javax.jws.WebService;
 import java.util.List;
 
 @WebService(serviceName ="PolicyService",//对外发布服务名
-        targetNamespace="http://webservice.mimicwebpolicy.angshi.com",//指定名称空间
-        endpointInterface = "com.angshi.mimicwebpolicy.webservice.PolicyService")//地址空间
+        targetNamespace="http://service.mimicwebpolicy.angshi.com",//指定名称空间
+        endpointInterface = "com.angshi.mimicwebpolicy.service.PolicyService")//地址空间
 @Slf4j
 @Component
 public class PolicyServiceimpl  implements PolicyService {

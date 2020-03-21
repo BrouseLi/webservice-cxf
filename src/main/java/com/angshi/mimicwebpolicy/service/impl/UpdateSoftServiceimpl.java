@@ -1,12 +1,12 @@
-package com.angshi.mimicwebpolicy.webservice.impl;
+package com.angshi.mimicwebpolicy.service.impl;
 
 import com.angshi.mimicwebpolicy.Entity.Message;
 import com.angshi.mimicwebpolicy.Entity.ObjToXml;
 import com.angshi.mimicwebpolicy.Entity.Soft;
 import com.angshi.mimicwebpolicy.Entity.SoftUpdateResult;
 import com.angshi.mimicwebpolicy.client.CxfClient;
-import com.angshi.mimicwebpolicy.service.util.Softutil;
-import com.angshi.mimicwebpolicy.webservice.UpdateSoftService;
+import com.angshi.mimicwebpolicy.util.Softutil;
+import com.angshi.mimicwebpolicy.service.UpdateSoftService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 
@@ -36,6 +36,9 @@ public class UpdateSoftServiceimpl implements UpdateSoftService {
                         //写入文件
                     boolean result = writeFile(soft.getVersion(),bytes);
                     if (result){
+                        /**
+                         * 调用软件安装脚本
+                         */
                         return  GenerrateSoftUpdateReslutXml("200",soft.getCode());
                     }else{
                         return  GenerrateSoftUpdateReslutXml("400",soft.getCode());

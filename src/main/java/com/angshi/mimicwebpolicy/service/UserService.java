@@ -1,4 +1,4 @@
-package com.angshi.mimicwebpolicy.webservice;
+package com.angshi.mimicwebpolicy.service;
 
 import com.angshi.mimicwebpolicy.Entity.User;
 

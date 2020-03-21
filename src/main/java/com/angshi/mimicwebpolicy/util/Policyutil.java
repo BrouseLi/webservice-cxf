@@ -1,14 +1,11 @@
-package com.angshi.mimicwebpolicy.service.util;
+package com.angshi.mimicwebpolicy.util;
 
 import com.angshi.mimicwebpolicy.Entity.Policy;
 import lombok.extern.slf4j.Slf4j;
 import org.dom4j.*;
-import org.dom4j.io.SAXReader;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 

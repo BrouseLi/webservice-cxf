@@ -1,4 +1,4 @@
-package com.angshi.mimicwebpolicy.service.util;
+package com.angshi.mimicwebpolicy.util;
 
 import com.angshi.mimicwebpolicy.Entity.Soft;
 import lombok.extern.slf4j.Slf4j;
