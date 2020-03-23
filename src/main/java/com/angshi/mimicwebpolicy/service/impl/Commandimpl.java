@@ -2,17 +2,25 @@ package com.angshi.mimicwebpolicy.service.impl;
 
 import com.angshi.mimicwebpolicy.service.command;
 import com.angshi.mimicwebpolicy.util.SystemUtil;
+import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 public class Commandimpl implements command {
     @Override
     public String reboot(Integer m) {
-        return SystemUtil.excuteShell("");
+        try{
+            Thread.sleep(m*1000);
+        }catch (Exception e){
+            log.warn(e.getLocalizedMessage());
+        }
+        return SystemUtil.excuteShell("reboot");
     }
 
     @Override
     public String shutDown(Integer m) {
         SystemUtil.excuteShell("killall java");
-        return SystemUtil.excuteShell("shutdown -f "+m);
+        return SystemUtil.excuteShell("shutdown -h now");
     }
 
     @Override

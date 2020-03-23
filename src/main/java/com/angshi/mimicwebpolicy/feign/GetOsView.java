@@ -7,7 +7,7 @@ public class GetOsView {
         Element hdEle=view.addElement("Hardware");
         Element boards=hdEle.addElement("Boards");
         Element board=boards.addElement("Board");
-        board.addAttribute("name","");
+        board.addAttribute("name","申威");
         board.addAttribute("status","");
         board.addAttribute("reason","");
         Element inetF=board.addElement("Interfaces");

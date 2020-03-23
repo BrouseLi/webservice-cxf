@@ -1,11 +1,47 @@
 package com.angshi.mimicwebpolicy.util;
 
+import com.angshi.mimicwebpolicy.Entity.Command;
+import com.angshi.mimicwebpolicy.Entity.Operation;
+import lombok.extern.slf4j.Slf4j;
+import org.dom4j.*;
 import org.junit.jupiter.api.Test;
-
+import java.util.List;
+@Slf4j
 public class ParseOperationCommand {
-    public static String parseOPerationCommand(String commandXml){
-
-        return null;
+    public static Command parseOPerationCommand(String commandXml){
+        Command command =new Command();
+        Operation operation=new Operation();
+        try {
+            Document doc = DocumentHelper.parseText(commandXml);
+            Element root = doc.getRootElement();
+            List<Element> list=root.elements();
+            for(Element e:list){
+                if ("Command".equals(e.getName())){
+                    List<Attribute>attributes=e.attributes();
+                    String code =attributes.get(0).getValue();
+                    String version =attributes.get(1).getValue();
+                    String mode =attributes.get(2).getValue();
+                    String id =attributes.get(3).getValue();
+                    String description = attributes.get(4).getValue();
+                    command.setCode(code);
+                    command.setVersion(version);
+                    command.setMode(mode);
+                    command.setId(id);
+                    command.setDescription(description);
+                }
+                List<Attribute>attributeList=e.elements().get(0).attributes();
+                String type = attributeList.get(0).getValue();
+                String delay = attributeList.get(1).getValue();
+                String reason = attributeList.get(2).getValue();
+                operation.setType(type);
+                operation.setDelay(Integer.valueOf(delay));
+                operation.setReason(reason);
+                command.setOperation(operation);
+            }
+        }catch(DocumentException e){
+            log.warn(e.getLocalizedMessage());
+        }
+        return command;
 
     }
 

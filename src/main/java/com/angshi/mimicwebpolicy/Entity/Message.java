@@ -11,7 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Setter
-@XmlRootElement
+@XmlRootElement(name = "Message")
 public class Message  {
     @XmlElement(name = "Result")
     private List<SoftUpdateResult> result;

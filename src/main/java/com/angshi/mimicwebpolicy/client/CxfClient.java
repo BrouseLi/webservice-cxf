@@ -6,18 +6,6 @@ import org.springframework.boot.test.context.TestComponent;
 
 @Slf4j
 public class CxfClient {
-    public static void main() {
-        // client.getOutInterceptors().add(new ClientLoginInterceptor(USER_NAME, PASS_WORD));
-        Client client=createClient("http://127.0.0.1:8080/mimicweb/policy?wsdl");
-        Object[] objects = new Object[0];
-        try {
-            objects = client.invoke("getUserName", "maple");
-            System.out.println("返回数据:" + objects[0]);
-        } catch (java.lang.Exception e) {
-            e.printStackTrace();
-        }
-    }
-
     /**
      *
      * @param serverWsdlPath 服务端wsdl地址
