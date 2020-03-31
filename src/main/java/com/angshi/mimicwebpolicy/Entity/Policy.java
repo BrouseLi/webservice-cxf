@@ -10,6 +10,7 @@ import java.util.List;
 @NoArgsConstructor
 @ToString
 public class Policy {
+
     private String name;
     private List<String> ip;
 }

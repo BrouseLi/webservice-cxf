@@ -44,8 +44,8 @@ public class Policyutil {
     public void testParsePolicy(){
         System.out.println( parseXmlToObj("<?xml version=\"1.0\" encoding=\"UTF-8\"?>" +
                 "<Policy>" +
-                "<Item key=\"Policy.name\" value=\"majorityVoting|consensusVoting\"/>" +
-                "<Item key=\"ip\" value=\"192.168.1.0,192.168.11.0\"/>" +
+                "   <Item key=\"Policy.name\" value=\"majorityVoting|consensusVoting\"/>" +
+                "   <Item key=\"ip\" value=\"192.168.1.0,192.168.11.0\"/>" +
                 "</Policy>"));
     }
 

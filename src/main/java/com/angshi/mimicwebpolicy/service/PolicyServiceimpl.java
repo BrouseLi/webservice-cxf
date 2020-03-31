@@ -1,9 +1,9 @@
-package com.angshi.mimicwebpolicy.service.impl;
+package com.angshi.mimicwebpolicy.service;
 
 import com.angshi.mimicwebpolicy.Entity.*;
 import com.angshi.mimicwebpolicy.client.CxfClient;
+import com.angshi.mimicwebpolicy.util.ParseOperationCommand;
 import com.angshi.mimicwebpolicy.util.Policyutil;
-import com.angshi.mimicwebpolicy.service.PolicyService;
 import com.angshi.mimicwebpolicy.util.RecieveOSViewXml;
 import com.angshi.mimicwebpolicy.util.Softutil;
 import lombok.extern.slf4j.Slf4j;
@@ -16,20 +16,26 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
-@WebService(serviceName ="PolicyService",//对外发布服务名
-        targetNamespace="http://service.mimicwebpolicy.angshi.com",//指定名称空间
-        endpointInterface = "com.angshi.mimicwebpolicy.service.PolicyService")//地址空间
+@WebService(serviceName ="policyService",
+        endpointInterface = "com.angshi.mimicwebpolicy.service.PolicyService"
+,targetNamespace="http://service.mimicwebpolicy.angshi.com/")
 @Slf4j
 @Component
-public class PolicyServiceimpl  implements PolicyService {
+public class PolicyServiceimpl implements PolicyService {
+    private HashMap<String,String> hashMap=new HashMap<String, String>();
+    public PolicyServiceimpl(){
+        hashMap.put("majorityVoting","C:\\phpStudy\\nginx\\conf\\nginx.conf");
+        hashMap.put("consensusVoting","C:\\phpStudy\\nginx\\conf\\nginx_test.conf");
+    }
     @Override
     public String queryPolicy(String oprCode) {
         return "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
                 "<Policy>\n" +
                 "<Item key=\"Policy.name\" value=\"\"/>" +
-                "<Item key=\"ip\" value=\"\"/>" +
+                "<Item key=\"ip\" value=\"192.168.1.1，192.168.1.2\"/>" +
                 "</Policy>";
     }
 
@@ -42,6 +48,13 @@ public class PolicyServiceimpl  implements PolicyService {
     public String fillPolicy(String oprCode, String policyXml) {
         Policy policy = Policyutil.parseXmlToObj(policyXml);
         List<String> list = policy.getIp();
+        /**
+         * 执行策略切换操作
+         */
+
+        /**
+         * 保存并覆盖策略模板文件
+         */
 
         Result result = new Result("200","成功","");
         return ObjToXml.convertToXml(result);
@@ -53,25 +66,39 @@ public class PolicyServiceimpl  implements PolicyService {
     }
     @Override
     public String fillCommand(String oprCode, String commandXml) {
-        if("".equals(oprCode)){
+        if("Update_Command_1.00".equals(oprCode)){
+            System.out.println(commandXml);
             Soft soft = Softutil.parseXmlToObj(commandXml);
+            System.out.println("开始解析模板");
             String softId=soft.getId();
+            if(!"".equals(softId)){
+                System.out.println(softId);
+                return  GenerrateSoftUpdateReslutXml("200",soft.getCode());
+            }
             /**
              * 生成客户端获取源码包，并执行升级操作
              */
             try {
                 //填写对方wsdl地址
-                Object[] objects = CxfClient.invoke(CxfClient.createClient(""), "downloadPackages", softId);
+                CxfClient cxfClient=new CxfClient();
+                cxfClient.createClient("");
+                Object[] objects = cxfClient.invoke(cxfClient.getClient(), "downloadPackages", softId);
                 byte[] bytes = (byte[]) objects[0];
                 //对返回值判断若不为空，则写入软件包，并将流传入另一接口
                 if (objects[0]!=null){
                     //写入文件
-                    boolean result = writeFile(soft.getVersion(),bytes);
+                    boolean result = writeFile("C:\\phpStudy\\nginx\\nginx.tar.gz",bytes);
                     if (result){
                         /**
                          * 调用软件安装脚本
                          */
-                        return  GenerrateSoftUpdateReslutXml("200",soft.getCode());
+                        //String flag= SystemUtil.excuteShell("");//键入脚本执行命令
+                        String flag="success";
+                        if ("success".equals(flag)){
+                            return  GenerrateSoftUpdateReslutXml("200",soft.getCode());
+                        }else{
+                            return  GenerrateSoftUpdateReslutXml("400",soft.getCode());
+                        }
                     }else{
                         return  GenerrateSoftUpdateReslutXml("400",soft.getCode());
                     }
@@ -81,6 +108,17 @@ public class PolicyServiceimpl  implements PolicyService {
             }catch (Exception e){
                 log.warn(e.getLocalizedMessage());
             }
+        }else if ("Update_Command_1.00".equals(oprCode)){
+            /***
+             * 执行维护性操作
+             */
+            //Command command =ParseOperationCommand.parseOPerationCommand(commandXml);
+            //command.getOperation().getDelay();
+
+        }else{
+            List list = new ArrayList<SoftUpdateResult>();
+            list.add(new SoftUpdateResult("400","error","操作码不正确，请重新确认操作码"));
+            return ObjToXml.convertToXml(new Message(list));
         }
         return "";
     }
@@ -152,4 +190,19 @@ public class PolicyServiceimpl  implements PolicyService {
         }
         return str;
     }
+    @Test
+    public void gneratePolicy(){
+        PolicyModule policy=new PolicyModule();
+        //policy.setName("");
+    }
+    @Test
+    public  void testSoftSownload()throws Exception{
+        CxfClient cxfClient=new CxfClient();
+        cxfClient.createClient("http://192.168.1.36:8084/zzjg/app/services/MTOMServerByte?wsdl");
+        Object[] objects = cxfClient.invoke(cxfClient.getClient(), "downloadPackages", "5");
+        byte[] bytes = (byte[]) objects[0];
+        System.out.println(bytes.length);
+        writeFile("C:\\phpStudy\\nginx\\nginx.tar.gz",bytes);
+    }
+
 }

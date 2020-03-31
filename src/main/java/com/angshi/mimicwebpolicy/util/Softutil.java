@@ -18,13 +18,13 @@ public class Softutil {
                 List<Attribute>attributeList=e.attributes();
                 String key = e.getName();
                 String value = e.getText();
-                if ("id".equals(key)){
+                if ("LevelId".equals(key)){
                     soft.setId(value);
                 }
                 if ("version".equals(key)){
                     soft.setVersion(value);
                 }
-                if ("code".equals(key)){
+                if ("ip".equals(key)){
                     if(value.contains(",")){
                         List<String>ipList = Arrays.asList(value.split(","));
                         soft.setCode(ipList);

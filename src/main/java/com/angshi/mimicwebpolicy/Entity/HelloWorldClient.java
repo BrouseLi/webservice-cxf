@@ -1,9 +1,6 @@
 package com.angshi.mimicwebpolicy.Entity;
 
 
-/*import com.WSSmCommUpperServiceImplServiceLocator;
-import com.WSSmCommUpperServiceImplServiceSoapBindingStub;*/
-
 public class HelloWorldClient {
   public static void main(String[] argv) {
       //try {

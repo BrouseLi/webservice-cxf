@@ -1,8 +1,7 @@
-package com.angshi.mimicwebpolicy.service.impl;
+package com.angshi.mimicwebpolicy.service;
 
 import com.angshi.mimicwebpolicy.service.command;
 import com.angshi.mimicwebpolicy.util.SystemUtil;
-import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

@@ -1,6 +1,5 @@
 package com.angshi.mimicwebpolicy.util;
 
-import com.angshi.mimicwebpolicy.Entity.Hardware;
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
@@ -53,5 +52,4 @@ public class RecieveOSViewXml {
         writer.close();
         return stringWriter.toString();
     }
-
 }

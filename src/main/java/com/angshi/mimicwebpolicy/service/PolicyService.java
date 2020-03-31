@@ -13,9 +13,9 @@ public interface PolicyService {
     @WebMethod
     String fillPolicy(@WebParam String oprCode,@WebParam String policyXml);
     @WebMethod
-    public String fillCommand(@WebParam String oprCode, @WebParam String commandXml);
+    String fillCommand(@WebParam String oprCode, @WebParam String commandXml);
     @WebMethod
-    public String  fillConfig(@WebParam String oprCode, @WebParam String configXml);
+    String  fillConfig(@WebParam String oprCode, @WebParam String configXml);
     @WebMethod
-    public String queryView(@WebParam String oprCode);
+    String queryView(@WebParam String oprCode);
 }
