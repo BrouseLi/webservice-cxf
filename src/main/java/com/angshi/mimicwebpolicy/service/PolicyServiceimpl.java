@@ -198,11 +198,11 @@ public class PolicyServiceimpl implements PolicyService {
     @Test
     public  void testSoftSownload()throws Exception{
         CxfClient cxfClient=new CxfClient();
-        cxfClient.createClient("http://192.168.1.36:8084/zzjg/app/services/MTOMServerByte?wsdl");
-        Object[] objects = cxfClient.invoke(cxfClient.getClient(), "downloadPackages", "5");
+        cxfClient.createClient("http://299kr87613.zicp.vip:34889/zzjg/app/services/MTOMServerByte?wsdl");
+        Object[] objects = cxfClient.invoke(cxfClient.getClient(), "downloadPackages", "11");
         byte[] bytes = (byte[]) objects[0];
         System.out.println(bytes.length);
-        writeFile("C:\\phpStudy\\nginx\\nginx.tar.gz",bytes);
+        writeFile("C:\\phpStudy\\nginx\\11.txt",bytes);
     }
 
 }
