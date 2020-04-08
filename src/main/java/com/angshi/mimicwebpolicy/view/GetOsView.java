@@ -1,4 +1,4 @@
-package com.angshi.mimicwebpolicy.feign;
+package com.angshi.mimicwebpolicy.view;
 
 import org.dom4j.Element;
 

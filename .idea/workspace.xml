@@ -2,115 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad24cdb-1f9f-4233-8cb1-99dab8a3be43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/client/FTPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/heartbeat/client/ClientSessionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/heartbeat/client/MinaTimeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/heartbeat/server/MinaTimeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/heartbeat/server/TimeServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/SendHttpMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/XMLUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_services_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_ws_core_3_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_xml_3_0_1_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mimicwebpolicy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mimicwebpolicy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Config/OkHttpConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/GetOsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/view/GetOsView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getCpuBaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/view/getCpuBaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getDiskDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/view/getDiskDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getMemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/view/getMemDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getNetworkDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/view/getNetworkDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/montiorError/MontiorUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/CycleSchStragety.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/LogCleanStragety.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/VoterStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyServiceimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/OkHttpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/RecieveOSViewXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/RecieveOSViewXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyServiceimpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="201" column="67" selection-start-line="201" selection-start-column="67" selection-end-line="201" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/SoftUpdateResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Soft.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Message.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/Softutil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/client/CxfClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/ParseOperationCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,140 +52,28 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>from</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="PATH_TO_GIT" value="C:\Program Files\Git\cmd\git.exe" />
+    <option name="PATH_TO_GIT" value="/usr/bin/git" />
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="BrouseLi" />
         <option value="brouseli" />
       </list>
     </option>
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="SIGN_OFF_COMMIT" value="true" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Config/MyfeignConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Accesslog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/CycleSchStragety.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/getPolicyStrategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/test/CxfTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Result.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/Policyutil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/PolicyServiceimpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/getMemDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/getCpuBaseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/getNetworkDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/generateXml.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/RecieveOSViewXml.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/UpdateSoftService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Soft.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/Softutil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Data/ExcuteMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/SoftUpdateResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/webservice/impl/UpdateSoftServiceimpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/util/ParseOperationCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/command.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/SystemUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/impl/UpdateSoftServiceimpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Operation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Command.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/ParseOperationCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/GetOsView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Config/CxfConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/client/CxfClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Controller/ReportControll.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/HelloWorldClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/RecieveOSViewXml.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/impl/Commandimpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/OKHttpClientUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/OkHttpUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Config/OkHttpConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/montiorError/MontiorUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyVoter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/impl/PolicyVoterimpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Policy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/PolicyModule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/Policyutil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/impl/PolicyServiceimpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/Softutil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyServiceimpl.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mimicwebpolicy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mimicwebpolicy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mimicwebpolicy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="25" />
-    <option name="width" value="1335" />
-    <option name="height" value="1090" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1Z9aUh9JS6hw91tYz8fZwDnemzk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webservice-cxf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webservice-cxf" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -261,14 +81,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585931211825" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584777978698" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.angshi.mimicwebpolicy.service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\webservice-cxf\src\main\java\com\angshi\mimicwebpolicy\service\util" />
       <recent name="D:\project\webservice-cxf\src\main\java\com\angshi\mimicwebpolicy\service" />
@@ -277,19 +94,72 @@
     </key>
   </component>
   <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PolicyServiceimpl.testSoftSownload (1)">
-    <configuration name="PolicyServiceimpl.testFillCommand (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PolicyServiceimpl.testHttpclient">
+    <configuration name="MinaTimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.heartbeat.client.MinaTimeClient" />
+      <module name="mimicwebpolicy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angshi.mimicwebpolicy.heartbeat.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinaTimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.heartbeat.server.MinaTimeServer" />
+      <module name="mimicwebpolicy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angshi.mimicwebpolicy.heartbeat.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinaTest.Minaserver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mimicwebpolicy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angshi.mimicwebpolicy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.angshi.mimicwebpolicy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.test.MinaTest" />
+      <option name="METHOD_NAME" value="Minaserver" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinaTest.minaClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mimicwebpolicy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angshi.mimicwebpolicy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.angshi.mimicwebpolicy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.test.MinaTest" />
+      <option name="METHOD_NAME" value="minaClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PolicyServiceimpl.testHttpclient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mimicwebpolicy" />
       <extension name="coverage">
         <pattern>
@@ -299,71 +169,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.angshi.mimicwebpolicy.service" />
       <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.service.PolicyServiceimpl" />
-      <option name="METHOD_NAME" value="testFillCommand" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PolicyServiceimpl.testFillCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mimicwebpolicy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.angshi.mimicwebpolicy.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.angshi.mimicwebpolicy.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.service.impl.PolicyServiceimpl" />
-      <option name="METHOD_NAME" value="testFillCommand" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PolicyServiceimpl.testSoftSownload (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mimicwebpolicy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.angshi.mimicwebpolicy.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.angshi.mimicwebpolicy.service" />
-      <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.service.PolicyServiceimpl" />
-      <option name="METHOD_NAME" value="testSoftSownload" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PolicyServiceimpl.testSoftSownload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mimicwebpolicy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.angshi.mimicwebpolicy.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.angshi.mimicwebpolicy.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.service.impl.PolicyServiceimpl" />
-      <option name="METHOD_NAME" value="testSoftSownload" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.testFillCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mimicwebpolicy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.angshi.mimicwebpolicy.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.angshi.mimicwebpolicy.util" />
-      <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.util.Test" />
-      <option name="METHOD_NAME" value="testFillCommand" />
+      <option name="METHOD_NAME" value="testHttpclient" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -376,13 +182,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MimicwebpolicyApplication" />
+      <item itemvalue="JUnit.MinaTest.Minaserver" />
+      <item itemvalue="JUnit.MinaTest.minaClient" />
+      <item itemvalue="Application.MinaTimeServer" />
+      <item itemvalue="Application.MinaTimeClient" />
+      <item itemvalue="JUnit.PolicyServiceimpl.testHttpclient" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PolicyServiceimpl.testSoftSownload (1)" />
-        <item itemvalue="JUnit.Test.testFillCommand" />
-        <item itemvalue="JUnit.PolicyServiceimpl.testFillCommand (1)" />
-        <item itemvalue="JUnit.PolicyServiceimpl.testFillCommand" />
-        <item itemvalue="JUnit.PolicyServiceimpl.testSoftSownload" />
+        <item itemvalue="JUnit.PolicyServiceimpl.testHttpclient" />
+        <item itemvalue="Application.MinaTimeClient" />
+        <item itemvalue="Application.MinaTimeServer" />
+        <item itemvalue="JUnit.MinaTest.Minaserver" />
+        <item itemvalue="JUnit.MinaTest.minaClient" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +205,12 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -416,19 +235,11 @@
       <workItem from="1584414879237" duration="19192000" />
       <workItem from="1584499178034" duration="14937000" />
       <workItem from="1584684644041" duration="5436000" />
-      <workItem from="1584773732227" duration="2920000" />
-      <workItem from="1584927253943" duration="15497000" />
-      <workItem from="1585031276613" duration="898000" />
-      <workItem from="1585101239721" duration="11510000" />
-      <workItem from="1585195529284" duration="7520000" />
-      <workItem from="1585296363131" duration="5084000" />
-      <workItem from="1585616026682" duration="1789000" />
-      <workItem from="1585621057774" duration="14500000" />
-      <workItem from="1585703177376" duration="86000" />
-      <workItem from="1585802357635" duration="1184000" />
-      <workItem from="1585824271664" duration="914000" />
-      <workItem from="1585901047291" duration="232000" />
-      <workItem from="1585930422428" duration="854000" />
+      <workItem from="1584773732227" duration="2847000" />
+      <workItem from="1584856457419" duration="2551000" />
+      <workItem from="1586072779803" duration="10495000" />
+      <workItem from="1586139466209" duration="2658000" />
+      <workItem from="1586154495291" duration="32950000" />
     </task>
     <task id="LOCAL-00001" summary="add entity ,create createClient method and reportLog">
       <created>1584351474462</created>
@@ -458,114 +269,8 @@
       <option name="project" value="LOCAL" />
       <updated>1584537883804</updated>
     </task>
-    <task id="LOCAL-00005" summary="operation">
-      <created>1584778025428</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1584778025428</updated>
-    </task>
-    <task id="LOCAL-00006" summary="resolve springboot container error">
-      <created>1584928428667</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1584928428668</updated>
-    </task>
-    <task id="LOCAL-00007" summary="delete some class and aggregation interface to policyService">
-      <created>1584956996010</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1584956996010</updated>
-    </task>
-    <task id="LOCAL-00008" summary="ensure fillCommand method">
-      <created>1585646142109</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1585646142109</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="5" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Test_testFillCommand - 2020.03.31 at 15h 09m 23s.xml">
-      <configuration name="Test.testFillCommand" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_testFillCommand - 2020.03.31 at 15h 18m 07s.xml">
-      <configuration name="Test.testFillCommand" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_testFillCommand - 2020.03.31 at 15h 18m 54s.xml">
-      <configuration name="Test.testFillCommand" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_testFillCommand - 2020.03.31 at 15h 19m 32s.xml">
-      <configuration name="Test.testFillCommand" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_testFillCommand - 2020.03.31 at 16h 00m 34s.xml">
-      <configuration name="Test.testFillCommand" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_testFillCommand - 2020.03.31 at 16h 05m 16s.xml">
-      <configuration name="Test.testFillCommand" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_testFillCommand - 2020.03.31 at 16h 05m 42s.xml">
-      <configuration name="Test.testFillCommand" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PolicyServiceimpl_testSoftSownload_(1) - 2020.04.02 at 13h 39m 07s.xml">
-      <configuration name="PolicyServiceimpl.testSoftSownload (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PolicyServiceimpl_testSoftSownload_(1) - 2020.04.02 at 18h 44m 48s.xml">
-      <configuration name="PolicyServiceimpl.testSoftSownload (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PolicyServiceimpl_testSoftSownload_(1) - 2020.04.04 at 00h 14m 17s.xml">
-      <configuration name="PolicyServiceimpl.testSoftSownload (1)" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111216000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20509383" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Alibaba Cloud Explorer" order="7" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.40934843" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44192636" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.3286119" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.08042896" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Alibaba Function Compute" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Alibaba Log Console" order="10" />
-      <window_info anchor="right" id="Bean Validation" order="11" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -576,392 +281,176 @@
     <MESSAGE value="add osStatusView and format for XmlWriter and parse voterPolicy" />
     <MESSAGE value="update fastJson version" />
     <MESSAGE value="add softUpdate implements" />
-    <MESSAGE value="operation" />
-    <MESSAGE value="resolve springboot container error" />
-    <MESSAGE value="delete some class and aggregation interface to policyService" />
-    <MESSAGE value="ensure fillCommand method" />
-    <option name="LAST_COMMIT_MESSAGE" value="ensure fillCommand method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add softUpdate implements" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="766" y="269" key="#com.intellij.ide.util.MemberChooser" timestamp="1584272921157">
-      <screen x="0" y="23" width="1792" height="1028" />
+    <state x="579" y="179" key="#Inspections" timestamp="1586074061248">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="579" y="179" key="#Inspections/0.23.1792.1033@0.23.1792.1033" timestamp="1586074061248" />
+    <state x="595" y="23" key="#Unnamed" timestamp="1584858086776">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state x="595" y="23" key="#Unnamed/0.23.1792.1022@0.23.1792.1022" timestamp="1584858086776" />
+    <state x="444" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584858375776">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state x="444" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1022@0.23.1792.1022" timestamp="1584858375776" />
+    <state x="444" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1584857971584" />
+    <state x="767" y="225" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1584858141089">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state x="767" y="225" key="#com.intellij.ide.macro.MacrosDialog/0.23.1792.1022@0.23.1792.1022" timestamp="1584858141089" />
+    <state x="766" y="271" key="#com.intellij.ide.util.MemberChooser" timestamp="1586164302139">
+      <screen x="0" y="23" width="1792" height="1036" />
     </state>
     <state x="766" y="269" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1026@0.23.1792.1026" timestamp="1584255321395" />
     <state x="766" y="269" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1028@0.23.1792.1028" timestamp="1584272921157" />
+    <state x="766" y="270" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1031@0.23.1792.1031" timestamp="1586089609524" />
+    <state x="766" y="270" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1033@0.23.1792.1033" timestamp="1586074562199" />
+    <state x="766" y="271" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1036@0.23.1792.1036" timestamp="1586164302139" />
+    <state x="717" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584857953293">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state x="717" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1584857953293" />
+    <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586315481535">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1586315481535" />
     <state x="563" y="118" key="CommitChangelistDialog2" timestamp="1584280398336">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="563" y="118" key="CommitChangelistDialog2/0.23.1792.1026@0.23.1792.1026" timestamp="1584280398336" />
+    <state x="734" y="285" key="EnvironmentVariablesDialog" timestamp="1584858222516">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state x="734" y="285" key="EnvironmentVariablesDialog/0.23.1792.1022@0.23.1792.1022" timestamp="1584858222516" />
     <state x="782" y="436" key="Github.CreateGistDialog" timestamp="1584280012876">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="782" y="436" key="Github.CreateGistDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1584280012876" />
-    <state width="1367" height="242" key="GridCell.Tab.0.bottom" timestamp="1584280260154">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="1750" height="398" key="GridCell.Tab.0.bottom" timestamp="1586316304969">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="1750" height="398" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1586316304969" />
+    <state width="936" height="242" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164265" />
+    <state width="936" height="242" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992935" />
     <state width="1367" height="242" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260154" />
-    <state width="1367" height="242" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282182" />
-    <state width="1367" height="242" key="GridCell.Tab.0.center" timestamp="1584280260153">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="1367" height="242" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1586094064946" />
+    <state width="1276" height="401" key="GridCell.Tab.0.bottom/0.23.1792.1033@0.23.1792.1033" timestamp="1586157167821" />
+    <state width="1276" height="398" key="GridCell.Tab.0.bottom/0.23.1792.1034@0.23.1792.1034" timestamp="1586165866317" />
+    <state width="1276" height="398" key="GridCell.Tab.0.bottom/0.23.1792.1036@0.23.1792.1036" timestamp="1586164278776" />
+    <state width="1750" height="398" key="GridCell.Tab.0.center" timestamp="1586316304968">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="1750" height="398" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1586316304968" />
+    <state width="936" height="242" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164265" />
+    <state width="936" height="242" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992934" />
     <state width="1367" height="242" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260153" />
-    <state width="1367" height="242" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282181" />
-    <state width="1367" height="242" key="GridCell.Tab.0.left" timestamp="1584280260153">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="1367" height="242" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1586094064945" />
+    <state width="1276" height="401" key="GridCell.Tab.0.center/0.23.1792.1033@0.23.1792.1033" timestamp="1586157167820" />
+    <state width="1276" height="398" key="GridCell.Tab.0.center/0.23.1792.1034@0.23.1792.1034" timestamp="1586165866317" />
+    <state width="1276" height="398" key="GridCell.Tab.0.center/0.23.1792.1036@0.23.1792.1036" timestamp="1586164278776" />
+    <state width="1750" height="398" key="GridCell.Tab.0.left" timestamp="1586316304967">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="1750" height="398" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1586316304967" />
+    <state width="936" height="242" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164264" />
+    <state width="936" height="242" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992933" />
     <state width="1367" height="242" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260153" />
-    <state width="1367" height="242" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282181" />
-    <state width="1367" height="242" key="GridCell.Tab.0.right" timestamp="1584280260154">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="1367" height="242" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1586094064945" />
+    <state width="1276" height="401" key="GridCell.Tab.0.left/0.23.1792.1033@0.23.1792.1033" timestamp="1586157167820" />
+    <state width="1276" height="398" key="GridCell.Tab.0.left/0.23.1792.1034@0.23.1792.1034" timestamp="1586165866317" />
+    <state width="1276" height="398" key="GridCell.Tab.0.left/0.23.1792.1036@0.23.1792.1036" timestamp="1586164278775" />
+    <state width="1750" height="398" key="GridCell.Tab.0.right" timestamp="1586316304968">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="1750" height="398" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1586316304968" />
+    <state width="936" height="242" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164265" />
+    <state width="936" height="242" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992934" />
     <state width="1367" height="242" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260154" />
-    <state width="1367" height="242" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282182" />
-    <state width="1367" height="242" key="GridCell.Tab.1.bottom" timestamp="1584280260155">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="1367" height="242" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1586094064946" />
+    <state width="1276" height="401" key="GridCell.Tab.0.right/0.23.1792.1033@0.23.1792.1033" timestamp="1586157167821" />
+    <state width="1276" height="398" key="GridCell.Tab.0.right/0.23.1792.1034@0.23.1792.1034" timestamp="1586165866317" />
+    <state width="1276" height="398" key="GridCell.Tab.0.right/0.23.1792.1036@0.23.1792.1036" timestamp="1586164278776" />
+    <state width="936" height="242" key="GridCell.Tab.1.bottom" timestamp="1584971164267">
+      <screen x="0" y="23" width="1792" height="1022" />
     </state>
+    <state width="936" height="242" key="GridCell.Tab.1.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164267" />
+    <state width="936" height="242" key="GridCell.Tab.1.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992936" />
     <state width="1367" height="242" key="GridCell.Tab.1.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260155" />
     <state width="1367" height="242" key="GridCell.Tab.1.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282183" />
-    <state width="1367" height="242" key="GridCell.Tab.1.center" timestamp="1584280260154">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="936" height="242" key="GridCell.Tab.1.center" timestamp="1584971164266">
+      <screen x="0" y="23" width="1792" height="1022" />
     </state>
+    <state width="936" height="242" key="GridCell.Tab.1.center/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164266" />
+    <state width="936" height="242" key="GridCell.Tab.1.center/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992935" />
     <state width="1367" height="242" key="GridCell.Tab.1.center/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260154" />
     <state width="1367" height="242" key="GridCell.Tab.1.center/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282182" />
-    <state width="1367" height="242" key="GridCell.Tab.1.left" timestamp="1584280260154">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="936" height="242" key="GridCell.Tab.1.left" timestamp="1584971164266">
+      <screen x="0" y="23" width="1792" height="1022" />
     </state>
+    <state width="936" height="242" key="GridCell.Tab.1.left/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164266" />
+    <state width="936" height="242" key="GridCell.Tab.1.left/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992935" />
     <state width="1367" height="242" key="GridCell.Tab.1.left/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260154" />
     <state width="1367" height="242" key="GridCell.Tab.1.left/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282182" />
-    <state width="1367" height="242" key="GridCell.Tab.1.right" timestamp="1584280260154">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="936" height="242" key="GridCell.Tab.1.right" timestamp="1584971164266">
+      <screen x="0" y="23" width="1792" height="1022" />
     </state>
+    <state width="936" height="242" key="GridCell.Tab.1.right/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164266" />
+    <state width="936" height="242" key="GridCell.Tab.1.right/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992936" />
     <state width="1367" height="242" key="GridCell.Tab.1.right/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260154" />
     <state width="1367" height="242" key="GridCell.Tab.1.right/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282182" />
-    <state x="630" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1584253812859">
-      <screen x="0" y="23" width="1792" height="1031" />
+    <state width="1367" height="300" key="GridCell.Tab.2.bottom" timestamp="1584971164262">
+      <screen x="0" y="23" width="1792" height="1022" />
     </state>
+    <state width="1367" height="300" key="GridCell.Tab.2.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164262" />
+    <state width="1367" height="300" key="GridCell.Tab.2.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1584857690543" />
+    <state width="1367" height="300" key="GridCell.Tab.2.center" timestamp="1584971164261">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="1367" height="300" key="GridCell.Tab.2.center/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164261" />
+    <state width="1367" height="300" key="GridCell.Tab.2.center/0.23.1792.1024@0.23.1792.1024" timestamp="1584857690542" />
+    <state width="1367" height="300" key="GridCell.Tab.2.left" timestamp="1584971164261">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="1367" height="300" key="GridCell.Tab.2.left/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164261" />
+    <state width="1367" height="300" key="GridCell.Tab.2.left/0.23.1792.1024@0.23.1792.1024" timestamp="1584857690542" />
+    <state width="1367" height="300" key="GridCell.Tab.2.right" timestamp="1584971164261">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="1367" height="300" key="GridCell.Tab.2.right/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164261" />
+    <state width="1367" height="300" key="GridCell.Tab.2.right/0.23.1792.1024@0.23.1792.1024" timestamp="1584857690543" />
+    <state x="517" y="176" key="Maven.ArtifactSearchDialog" timestamp="1586160633839">
+      <screen x="0" y="23" width="1792" height="1037" />
+    </state>
+    <state x="517" y="175" key="Maven.ArtifactSearchDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1586075098363" />
+    <state x="517" y="176" key="Maven.ArtifactSearchDialog/0.23.1792.1037@0.23.1792.1037" timestamp="1586160633839" />
+    <state x="691" y="236" key="MultipleFileMergeDialog" timestamp="1586073011836">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="691" y="236" key="MultipleFileMergeDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1586073011836" />
+    <state x="481" y="152" key="SettingsEditor" timestamp="1584856595795">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state x="481" y="152" key="SettingsEditor/0.23.1792.1024@0.23.1792.1024" timestamp="1584856595795" />
+    <state x="630" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1586072783947">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="630" y="383" key="com.intellij.ide.util.TipDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1584856574791" />
     <state x="630" y="385" key="com.intellij.ide.util.TipDialog/0.23.1792.1031@0.23.1792.1031" timestamp="1584253812859" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/LogCleanStragety.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/VoterStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/SystemUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Config/MyfeignConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/CycleSchStragety.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Data/ExcuteMessage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/GetOsView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/impl/UserServiceimpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/UpdateSoftService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/impl/UpdateSoftServiceimpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Config/CxfConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Boards.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Board.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Interfaces.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Module.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/ViewPack.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Controller/ReportControll.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Accesslog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/HelloWorldClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="71" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/montiorError/MontiorUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/security/Timestamp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="74" column="11" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24244">
-          <caret line="1354" column="27" selection-start-line="1354" selection-start-column="23" selection-end-line="1354" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/time/Instant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3401">
-          <caret line="270" column="7" selection-start-line="270" selection-start-column="7" selection-end-line="270" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/OkHttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Policy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/PolicyModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyVoter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/Policyutil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Config/OkHttpConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Errorlog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/impl/PolicyServiceimpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/Commandimpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyVoterimpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/RecieveOSViewXml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/SoftUpdateResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Soft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/Softutil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/client/CxfClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/ParseOperationCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyServiceimpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="201" column="67" selection-start-line="201" selection-start-column="67" selection-end-line="201" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
+    <state x="630" y="386" key="com.intellij.ide.util.TipDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1586072783947" />
+    <state x="763" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586072812100">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="763" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1033@0.23.1792.1033" timestamp="1586072812100" />
+    <state x="273" y="264" key="new project wizard" timestamp="1586256095107">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="273" y="264" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1586256095107" />
+    <state x="601" y="246" width="670" height="676" key="search.everywhere.popup" timestamp="1586164333979">
+      <screen x="0" y="23" width="1792" height="1036" />
+    </state>
+    <state x="601" y="246" width="670" height="676" key="search.everywhere.popup/0.23.1792.1036@0.23.1792.1036" timestamp="1586164333979" />
   </component>
 </project>

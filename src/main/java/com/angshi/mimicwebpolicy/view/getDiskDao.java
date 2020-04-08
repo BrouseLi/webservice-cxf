@@ -1,15 +1,12 @@
-package com.angshi.mimicwebpolicy.feign;
+package com.angshi.mimicwebpolicy.view;
 
 
 import org.dom4j.Element;
 import oshi.SystemInfo;
-import oshi.hardware.HWDiskStore;
-import oshi.hardware.HWPartition;
 import oshi.hardware.HardwareAbstractionLayer;
 import oshi.software.os.FileSystem;
 import oshi.software.os.OSFileStore;
 import oshi.software.os.OperatingSystem;
-import oshi.util.FormatUtil;
 
 public class getDiskDao {
 

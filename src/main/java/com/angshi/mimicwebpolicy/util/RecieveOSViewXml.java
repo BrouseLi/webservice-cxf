@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.io.StringWriter;
-import static com.angshi.mimicwebpolicy.feign.GetOsView.addBoard;
+import static com.angshi.mimicwebpolicy.view.GetOsView.addBoard;
 
 
 public class RecieveOSViewXml {
