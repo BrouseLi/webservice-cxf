@@ -2,42 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad24cdb-1f9f-4233-8cb1-99dab8a3be43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/client/FTPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/heartbeat/client/ClientSessionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/heartbeat/client/MinaTimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/heartbeat/server/MinaTimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/heartbeat/server/TimeServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/SendHttpMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/XMLUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_services_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_ws_core_3_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_xml_3_0_1_RELEASE.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Config/EsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/NewAccessLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/NewErrorLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/NewLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/NewLogs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/NewWarnLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/OperationLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/UpdateLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Entity/catBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/job/SaticScheduleTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/job/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/test/ParseReportConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/ElasticUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mimicwebpolicy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mimicwebpolicy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/Config/OkHttpConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/GetOsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/view/GetOsView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getCpuBaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/view/getCpuBaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getDiskDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/view/getDiskDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getMemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/view/getMemDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/feign/getNetworkDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/view/getNetworkDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/montiorError/MontiorUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/CycleSchStragety.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/LogCleanStragety.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/parse/VoterStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/service/PolicyServiceimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/OkHttpUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/RecieveOSViewXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/RecieveOSViewXml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angshi/mimicwebpolicy/MimicwebpolicyApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/client/FTPClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/Policyutil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/Policyutil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/XMLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy/util/XMLUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +34,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -82,11 +68,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584777978698" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.angshi.mimicwebpolicy.Entity" />
+      <recent name="com.angshi.mimicwebpolicy.util" />
+      <recent name="com.angshi.mimicwebpolicy.Config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/angshi/mimicwebpolicy" />
       <recent name="D:\project\webservice-cxf\src\main\java\com\angshi\mimicwebpolicy\service\util" />
       <recent name="D:\project\webservice-cxf\src\main\java\com\angshi\mimicwebpolicy\service" />
       <recent name="D:\project\webservice-cxf\src\main\java\com\angshi\mimicwebpolicy\parse" />
@@ -100,7 +92,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PolicyServiceimpl.testHttpclient">
+  <component name="RunManager" selected="Spring Boot.MimicwebpolicyApplication">
     <configuration name="MinaTimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.heartbeat.client.MinaTimeClient" />
       <module name="mimicwebpolicy" />
@@ -143,7 +135,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinaTest.minaClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParseReportConfig.parseReportConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mimicwebpolicy" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +144,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.angshi.mimicwebpolicy.test" />
-      <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.test.MinaTest" />
-      <option name="METHOD_NAME" value="minaClient" />
+      <option name="MAIN_CLASS_NAME" value="com.angshi.mimicwebpolicy.test.ParseReportConfig" />
+      <option name="METHOD_NAME" value="parseReportConfig" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,20 +175,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.MimicwebpolicyApplication" />
-      <item itemvalue="JUnit.MinaTest.Minaserver" />
-      <item itemvalue="JUnit.MinaTest.minaClient" />
       <item itemvalue="Application.MinaTimeServer" />
       <item itemvalue="Application.MinaTimeClient" />
+      <item itemvalue="JUnit.MinaTest.Minaserver" />
       <item itemvalue="JUnit.PolicyServiceimpl.testHttpclient" />
+      <item itemvalue="JUnit.ParseReportConfig.parseReportConfig" />
+      <item itemvalue="Spring Boot.MimicwebpolicyApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParseReportConfig.parseReportConfig" />
         <item itemvalue="JUnit.PolicyServiceimpl.testHttpclient" />
         <item itemvalue="Application.MinaTimeClient" />
         <item itemvalue="Application.MinaTimeServer" />
         <item itemvalue="JUnit.MinaTest.Minaserver" />
-        <item itemvalue="JUnit.MinaTest.minaClient" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +231,17 @@
       <workItem from="1584856457419" duration="2551000" />
       <workItem from="1586072779803" duration="10495000" />
       <workItem from="1586139466209" duration="2658000" />
-      <workItem from="1586154495291" duration="32950000" />
+      <workItem from="1586154495291" duration="33185000" />
+      <workItem from="1586395590818" duration="356000" />
+      <workItem from="1586433114590" duration="620000" />
+      <workItem from="1586501774858" duration="403000" />
+      <workItem from="1586846176075" duration="4068000" />
+      <workItem from="1586932343401" duration="162000" />
+      <workItem from="1586957573495" duration="856000" />
+      <workItem from="1587125956651" duration="521000" />
+      <workItem from="1587176609807" duration="649000" />
+      <workItem from="1587285327781" duration="1065000" />
+      <workItem from="1587349595879" duration="2438000" />
     </task>
     <task id="LOCAL-00001" summary="add entity ,create createClient method and reportLog">
       <created>1584351474462</created>
@@ -269,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584537883804</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add httpClient implement">
+      <created>1586336828898</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586336828898</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +290,8 @@
     <MESSAGE value="add osStatusView and format for XmlWriter and parse voterPolicy" />
     <MESSAGE value="update fastJson version" />
     <MESSAGE value="add softUpdate implements" />
-    <option name="LAST_COMMIT_MESSAGE" value="add softUpdate implements" />
+    <MESSAGE value="add httpClient implement" />
+    <option name="LAST_COMMIT_MESSAGE" value="add httpClient implement" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="179" key="#Inspections" timestamp="1586074061248">
@@ -317,9 +327,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="634" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1586315481535" />
-    <state x="563" y="118" key="CommitChangelistDialog2" timestamp="1584280398336">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state x="563" y="104" key="CommitChangelistDialog2" timestamp="1586336828655">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="563" y="104" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1586336828655" />
     <state x="563" y="118" key="CommitChangelistDialog2/0.23.1792.1026@0.23.1792.1026" timestamp="1584280398336" />
     <state x="734" y="285" key="EnvironmentVariablesDialog" timestamp="1584858222516">
       <screen x="0" y="23" width="1792" height="1022" />
@@ -329,74 +340,78 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="782" y="436" key="Github.CreateGistDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1584280012876" />
-    <state width="1750" height="398" key="GridCell.Tab.0.bottom" timestamp="1586316304969">
+    <state width="1204" height="413" key="GridCell.Tab.0.bottom" timestamp="1587352147771">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="398" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1586316304969" />
+    <state width="1204" height="413" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1587352147771" />
     <state width="936" height="242" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164265" />
     <state width="936" height="242" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992935" />
-    <state width="1367" height="242" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260154" />
+    <state width="1750" height="350" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1586849042881" />
     <state width="1367" height="242" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1586094064946" />
     <state width="1276" height="401" key="GridCell.Tab.0.bottom/0.23.1792.1033@0.23.1792.1033" timestamp="1586157167821" />
     <state width="1276" height="398" key="GridCell.Tab.0.bottom/0.23.1792.1034@0.23.1792.1034" timestamp="1586165866317" />
     <state width="1276" height="398" key="GridCell.Tab.0.bottom/0.23.1792.1036@0.23.1792.1036" timestamp="1586164278776" />
-    <state width="1750" height="398" key="GridCell.Tab.0.center" timestamp="1586316304968">
+    <state width="1204" height="413" key="GridCell.Tab.0.center" timestamp="1587352147770">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="398" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1586316304968" />
+    <state width="1204" height="413" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1587352147770" />
     <state width="936" height="242" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164265" />
     <state width="936" height="242" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992934" />
-    <state width="1367" height="242" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260153" />
+    <state width="1750" height="350" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1586849042880" />
     <state width="1367" height="242" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1586094064945" />
     <state width="1276" height="401" key="GridCell.Tab.0.center/0.23.1792.1033@0.23.1792.1033" timestamp="1586157167820" />
     <state width="1276" height="398" key="GridCell.Tab.0.center/0.23.1792.1034@0.23.1792.1034" timestamp="1586165866317" />
     <state width="1276" height="398" key="GridCell.Tab.0.center/0.23.1792.1036@0.23.1792.1036" timestamp="1586164278776" />
-    <state width="1750" height="398" key="GridCell.Tab.0.left" timestamp="1586316304967">
+    <state width="1204" height="413" key="GridCell.Tab.0.left" timestamp="1587352147767">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="398" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1586316304967" />
+    <state width="1204" height="413" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1587352147767" />
     <state width="936" height="242" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164264" />
     <state width="936" height="242" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992933" />
-    <state width="1367" height="242" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260153" />
+    <state width="1750" height="350" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1586849042880" />
     <state width="1367" height="242" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1586094064945" />
     <state width="1276" height="401" key="GridCell.Tab.0.left/0.23.1792.1033@0.23.1792.1033" timestamp="1586157167820" />
     <state width="1276" height="398" key="GridCell.Tab.0.left/0.23.1792.1034@0.23.1792.1034" timestamp="1586165866317" />
     <state width="1276" height="398" key="GridCell.Tab.0.left/0.23.1792.1036@0.23.1792.1036" timestamp="1586164278775" />
-    <state width="1750" height="398" key="GridCell.Tab.0.right" timestamp="1586316304968">
+    <state width="1204" height="413" key="GridCell.Tab.0.right" timestamp="1587352147771">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="398" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1586316304968" />
+    <state width="1204" height="413" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1587352147771" />
     <state width="936" height="242" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164265" />
     <state width="936" height="242" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992934" />
-    <state width="1367" height="242" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260154" />
+    <state width="1750" height="350" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1586849042881" />
     <state width="1367" height="242" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1586094064946" />
     <state width="1276" height="401" key="GridCell.Tab.0.right/0.23.1792.1033@0.23.1792.1033" timestamp="1586157167821" />
     <state width="1276" height="398" key="GridCell.Tab.0.right/0.23.1792.1034@0.23.1792.1034" timestamp="1586165866317" />
     <state width="1276" height="398" key="GridCell.Tab.0.right/0.23.1792.1036@0.23.1792.1036" timestamp="1586164278776" />
-    <state width="936" height="242" key="GridCell.Tab.1.bottom" timestamp="1584971164267">
-      <screen x="0" y="23" width="1792" height="1022" />
+    <state width="1204" height="413" key="GridCell.Tab.1.bottom" timestamp="1587352147773">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="1204" height="413" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1587352147773" />
     <state width="936" height="242" key="GridCell.Tab.1.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164267" />
     <state width="936" height="242" key="GridCell.Tab.1.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992936" />
     <state width="1367" height="242" key="GridCell.Tab.1.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260155" />
     <state width="1367" height="242" key="GridCell.Tab.1.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282183" />
-    <state width="936" height="242" key="GridCell.Tab.1.center" timestamp="1584971164266">
-      <screen x="0" y="23" width="1792" height="1022" />
+    <state width="1204" height="413" key="GridCell.Tab.1.center" timestamp="1587352147772">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="1204" height="413" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1587352147772" />
     <state width="936" height="242" key="GridCell.Tab.1.center/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164266" />
     <state width="936" height="242" key="GridCell.Tab.1.center/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992935" />
     <state width="1367" height="242" key="GridCell.Tab.1.center/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260154" />
     <state width="1367" height="242" key="GridCell.Tab.1.center/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282182" />
-    <state width="936" height="242" key="GridCell.Tab.1.left" timestamp="1584971164266">
-      <screen x="0" y="23" width="1792" height="1022" />
+    <state width="1204" height="413" key="GridCell.Tab.1.left" timestamp="1587352147772">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="1204" height="413" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1587352147772" />
     <state width="936" height="242" key="GridCell.Tab.1.left/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164266" />
     <state width="936" height="242" key="GridCell.Tab.1.left/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992935" />
     <state width="1367" height="242" key="GridCell.Tab.1.left/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260154" />
     <state width="1367" height="242" key="GridCell.Tab.1.left/0.23.1792.1031@0.23.1792.1031" timestamp="1584264282182" />
-    <state width="936" height="242" key="GridCell.Tab.1.right" timestamp="1584971164266">
-      <screen x="0" y="23" width="1792" height="1022" />
+    <state width="1204" height="413" key="GridCell.Tab.1.right" timestamp="1587352147773">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state width="1204" height="413" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1587352147773" />
     <state width="936" height="242" key="GridCell.Tab.1.right/0.23.1792.1022@0.23.1792.1022" timestamp="1584971164266" />
     <state width="936" height="242" key="GridCell.Tab.1.right/0.23.1792.1024@0.23.1792.1024" timestamp="1584857992936" />
     <state width="1367" height="242" key="GridCell.Tab.1.right/0.23.1792.1026@0.23.1792.1026" timestamp="1584280260154" />
@@ -434,9 +449,14 @@
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
     <state x="481" y="152" key="SettingsEditor/0.23.1792.1024@0.23.1792.1024" timestamp="1584856595795" />
-    <state x="630" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1586072783947">
-      <screen x="0" y="23" width="1792" height="1033" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1586336840886">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1586336840886" />
+    <state x="630" y="394" key="com.intellij.ide.util.TipDialog" timestamp="1587176611816">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="630" y="394" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1587176611816" />
     <state x="630" y="383" key="com.intellij.ide.util.TipDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1584856574791" />
     <state x="630" y="385" key="com.intellij.ide.util.TipDialog/0.23.1792.1031@0.23.1792.1031" timestamp="1584253812859" />
     <state x="630" y="386" key="com.intellij.ide.util.TipDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1586072783947" />

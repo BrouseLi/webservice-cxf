@@ -41,4 +41,17 @@ public class FileUtil {
         }
         return stringBuffer.toString();
     }
+    public static String getFileContents(String path)  {
+        List<String> lines = null;
+        try {
+            lines = Files.readAllLines(Paths.get(path), StandardCharsets.UTF_8);
+        } catch (IOException e) {
+            log.warn(e.getLocalizedMessage());
+        }
+        StringBuffer stringBuffer=new StringBuffer();
+        for (String str:lines){
+            stringBuffer.append(str+"\t\r\n");
+        }
+        return stringBuffer.toString();
+    }
 }

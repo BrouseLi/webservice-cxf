@@ -10,7 +10,6 @@ import java.util.Arrays;
 import java.util.List;
 
 @Slf4j
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT, classes = { Policyutil.class })
 public class Policyutil {
     public static  Policy parseXmlToObj(String policyXml){
         Policy policy=new Policy();

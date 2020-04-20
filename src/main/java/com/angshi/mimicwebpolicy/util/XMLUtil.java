@@ -3,7 +3,11 @@ package com.angshi.mimicwebpolicy.util;
 import com.angshi.mimicwebpolicy.Entity.Message;
 import com.angshi.mimicwebpolicy.Entity.ObjToXml;
 import com.angshi.mimicwebpolicy.Entity.SoftUpdateResult;
+import org.dom4j.Document;
+import org.dom4j.DocumentException;
+import org.dom4j.DocumentHelper;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -28,5 +32,9 @@ public class XMLUtil {
                 list1.add(softUpdateResult);
             }
         return ObjToXml.convertToXml(new Message(list1));
+    }
+    public static String formatXml(String xml) throws DocumentException, IOException {
+        Document document= DocumentHelper.parseText(xml);
+        return RecieveOSViewXml.prettysString(document);
     }
 }
