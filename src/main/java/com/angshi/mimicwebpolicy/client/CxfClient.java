@@ -1,4 +1,5 @@
 package com.angshi.mimicwebpolicy.client;
+
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
@@ -46,6 +47,7 @@ public class CxfClient {
     public  void reportWarnLog(Client client,String warnLogXml){
         try{
             Object[] objects = new Object[0];
+            System.out.println("开始上报"+warnLogXml);
             client.invoke("reportLog","233913347993472","VoterAlert_Log_1.00",warnLogXml);
         }catch (Exception e){
             log.warn(e.getLocalizedMessage());

@@ -22,11 +22,11 @@ import java.util.Date;
  * @Author 邢福康
  * @Create 2020-04-15 16:31:29
  */
-@Lazy(false)
-@Component
-@EnableScheduling
-@Getter
-@Setter
+//@Lazy(false)
+//@Component
+//@EnableScheduling
+//@Getter
+//@Setter
 public class test implements SchedulingConfigurer {
     private static String cron;
     private static int time;

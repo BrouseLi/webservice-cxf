@@ -8,12 +8,12 @@ import org.springframework.scheduling.annotation.Scheduled;
 
 import java.io.IOException;
 
-@Configuration
-@EnableScheduling
+//@Configuration
+//@EnableScheduling
 public class SaticScheduleTask {
-    @Autowired
+    //@Autowired
     private ElasticUtil elasticUtil;
-    @Scheduled(cron = "0/5 * * * * ?")
+    //@Scheduled(cron = "0/5 * * * * ?")
     //或直接指定时间间隔，例如：5秒
     //@Scheduled(fixedRate=5000)
     private void configureTasks() throws IOException {

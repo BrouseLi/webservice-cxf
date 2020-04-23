@@ -5,13 +5,15 @@ import com.angshi.mimicwebpolicy.client.CxfClient;
 import com.angshi.mimicwebpolicy.util.FileUtil;
 import com.angshi.mimicwebpolicy.util.SendHttpMessage;
 import com.angshi.mimicwebpolicy.util.Softutil;
+import com.angshi.mimicwebpolicy.util.XMLUtil;
+import org.dom4j.DocumentException;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Test {
-    @org.junit.jupiter.api.Test
+    /*@org.junit.jupiter.api.Test
     public void testFillCommand()throws Exception{
         CxfClient cxfClient=new CxfClient();
         String str="<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n" +
@@ -69,8 +71,21 @@ public class Test {
         System.out.println(SendHttpMessage.sendMessage(url,"ll"));
     }
     @org.junit.jupiter.api.Test
-    public void test(){
-        Result result = new Result("200","成功","");
-        System.out.println(ObjToXml.convertToXml(result));
+    public void test() throws IOException, DocumentException {
+        //Result result = new Result("200","成功","");
+        //System.out.println(ObjToXml.convertToXml(result));
+    }
+    @org.junit.jupiter.api.Test
+    public static void testReportLog() {
+        System.out.println(FileUtil.getFileContent("/Users/liang/Documents/warn.xml"));
+    }*/
+    @org.junit.jupiter.api.Test
+    public  void testSoftSownload()throws Exception{
+        CxfClient cxfClient=new CxfClient();
+        cxfClient.createClient("http://299kr87613.zicp.vip:34889/zzjg/app/services/MTOMServerByte?wsdl");
+        Object[] objects = cxfClient.invoke(cxfClient.getClient(), "getUpList", "1.15.20");
+        String str = (String) objects[0];
+        System.out.println(str);
+        //FileUtil.writeFile("C:\\phpStudy\\nginx\\11.txt",bytes);
     }
 }

@@ -44,7 +44,7 @@ public class PolicyServiceimpl implements PolicyService {
 
     @Override
     public String fillPolicy(String oprCode, String policyXml) {
-        if ("voter_policy_1.00".equals(oprCode)){
+        if ("Voter_policy_1.00".equals(oprCode)){
             if (!"".equals(policyXml)){
                 /**
                  * 保存并覆盖策略模板文件
@@ -57,15 +57,18 @@ public class PolicyServiceimpl implements PolicyService {
                      * 执行策略切换操作
                      *
                      */
-                    int count=0;
+                    /*int count=0;
                     for (String ip:list){
                         String URL="http://"+ip+":8080/voterStrategy";
                         String result=SendHttpMessage.sendMessage(URL,policy.getName());
                         if (!"".equals(result)){
                             count++;
                         }
-                    }
-                    if (count==2){
+                    }*/
+                    String strategy=policy.getName();
+                    if (!"".equals(strategy)){
+                        //System.out.println(strategy);
+                        log.info(strategy);
                         return ObjToXml.convertToXml(new Result("200","成功","策略下发成功"));
                     }else{
                         return ObjToXml.convertToXml(new Result("400","失败","策略下发中断"));
